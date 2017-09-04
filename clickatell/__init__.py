@@ -10,7 +10,7 @@ class Transport:
     the supported API methods
     """
 
-    endpoint = "api.clickatell.com"
+    endpoint = "platform.clickatell.com"
     status = {
         "001": "The message ID is incorrect or reporting is delayed.",
         "002": "The message could not be delivered and has been queued for attempted redelivery.",
